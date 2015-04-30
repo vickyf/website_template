@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <br>
+
+      <!-- Top header part with foto and about section + social media icons -->
+      <div class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="img-circle" src="img/profile.png" alt="..." id="Logo" >
+          </a>
+        </div>
+        <div class="media-body">
+          <h1 class="media-heading">John Doe <small>researcher - scientist</small></h1>
+          <p class = "text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus. In vitae dolor efficitur, finibus ex at, sollicitudin augue. Nulla mauris quam, imperdiet eu odio sit amet, lobortis porta justo. Duis consectetur nisi ut nulla consectetur, non commodo sapien convallis. Fusce turpis justo, gravida eu sem et, vestibulum vehicula nisl. Nam 
+          </p>
+          <p>
+            <i>Keywords</i>: coffee, research, python, git, books
+          </p>
+          <div class="row">
+            <div class="col-xs-6">
+              <p class ="text-left">
+                <i class="fa fa-download"></i><a href=""> [download cv]</a>
+              </p>
+            </div>
+            <div class="col-xs-6">
+              <p class ="text-right">
+                <a href=""><i class="fa fa-github"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href= ""><i class="fa fa-university"></i></a>
+                <a href= ""><i class="fa fa-mortar-board"></i></a>
+                <a href= ""><i class="fa fa-coffee"></i></a>
+              </p>
+            </div>
+        </div>
+      </div>
+      <br>
+
+      <!-- navtabs for navigation -->
+      <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#projects" data-toggle="tab">Projects</a></li>
+        <li><a href="#publications" data-toggle="tab">Publications</a></li>
+        <li><a href="#curriculum" data-toggle="tab">Curriculum</a></li>
+      </ul>
+
+      <!-- Projects tab consists of an accodeon -->
+      <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="projects">
+          <!--<h2>Projects</h2>-->
+          <br>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="row">
+                 <div class="col-xs-2">
+                   <img src="http://placehold.it/140x140" class="img-responsive">
+                 </div>
+                 <div class="col-xs-10">
+                  <h2 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                      Awesome Project 1
+                    </a>
+                    <i class="indicator glyphicon glyphicon-chevron-right"></i>
+                  </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus. In vitae dolor efficitur, finibus ex at, sollicitudin augue. Nulla mauris quam, imperdiet eu odio sit amet, lobortis porta justo. Duis consectetur nisi ut nulla consectetur, non commodo sapien convallis. Fusce turpis justo, gravida eu sem et, vestibulum vehicula nisl. Nam bibendum, ex id ultricies ultricies, elit lorem ullamcorper nulla, nec dignissim odio velit scelerisque urna. Praesent faucibus turpis id lectus euismod luctus. In in convallis massa, quis euismod tortor.</p>
+                  <p>Collaborators: <a href="">Dr. Brown</a>, <a href="">Dr. No</a></a></p>
+                 </div>
+               </div>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="row">
+                 <div class="col-xs-2">
+                   <img src="http://placehold.it/140x140" class="img-responsive">
+                 </div>
+                 <div class="col-xs-10">
+                  <h2 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                      Awesoem Project 2
+                    </a>
+                    <i class="indicator glyphicon glyphicon-chevron-right"></i>
+                  </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus. In vitae dolor efficitur, finibus ex at, sollicitudin augue. Nulla mauris quam, imperdiet eu odio sit amet, lobortis porta justo. Duis consectetur nisi ut nulla consectetur, non commodo sapien convallis. Fusce turpis justo, gravida eu sem et, vestibulum vehicula nisl. Nam bibendum, ex id ultricies ultricies, elit lorem ullamcorper nulla, nec dignissim odio velit scelerisque urna. Praesent faucibus turpis id lectus euismod luctus. In in convallis massa, quis euismod tortor.</p>
+                  <p>Collaborators: <a href="">Dr. Brown</a>, <a href="">Dr. No</a></a></p>
+                 </div>
+               </div>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="row">
+                 <div class="col-xs-2">
+                   <img src="http://placehold.it/140x140" class="img-responsive">
+                 </div>
+                 <div class="col-xs-10">
+                  <h2 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                      Awesome Project 3
+                    </a>
+                    <i class="indicator glyphicon glyphicon-chevron-right"></i>
+                  </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus. In vitae dolor efficitur, finibus ex at, sollicitudin augue. Nulla mauris quam, imperdiet eu odio sit amet, lobortis porta justo. Duis consectetur nisi ut nulla consectetur, non commodo sapien convallis. Fusce turpis justo, gravida eu sem et, vestibulum vehicula nisl. Nam bibendum, ex id ultricies ultricies, elit lorem ullamcorper nulla, nec dignissim odio velit scelerisque urna. Praesent faucibus turpis id lectus euismod luctus. In in convallis massa, quis euismod tortor.</p>
+                  <p>Collaborators: <a href="">Dr. Brown</a>, <a href="">Dr. No</a></a></p>
+                 </div>
+               </div>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia mauris in erat finibus volutpat. In libero erat, posuere porttitor tincidunt nec, blandit ac tortor. Nam fermentum quam a odio faucibus, rutrum euismod velit posuere. Ut et vehicula metus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end of projects tab -->
+
+        <!-- Publications tab -- simple list with images on the side -->
+        <div class="tab-pane" id="publications">
+          <!--<h2>Publications</h2>-->
+          <h3>Journal Publications</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="http://placehold.it/140x140" class="img-responsive">
+                </div>
+                <div class="col-xs-11">
+                  <p class="text-left">
+                    <kbd>Doe, J.</kbd>, & Brown, E. (2013). Cras lacinia mauris in erat finibus volutpat. Journal of Quantum Stuff, 13(10), 1-12.
+                  </p>
+                  <p class="text-left">
+                    <i class="fa fa-file-pdf-o"></i><a href=""> [fulltext]</a> 
+                    <i class="fa fa-external-link"></i><a href=""> [publisher]</a> 
+                    <i class="fa fa-github"></i><a href=""> [stimulus toolbox]</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="http://placehold.it/140x140" class="img-responsive">
+                </div>
+                <div class="col-xs-11">
+                  <p class="text-left">
+                    <kbd>Doe, J.</kbd>, & Brown, E. (2011). Cras lacinia mauris in erat finibus volutpat. Journal of Quantum Stuff, 13(10), 1-12.
+                  </p>
+                  <p class="text-left">
+                    <i class="fa fa-video-camera"></i><a href=""> [demos]</a> 
+                    <i class="fa fa-github"></i><a href=""> [stimulus toolbox]</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <h3>Conference Proceedings</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="http://placehold.it/140x140" class="img-responsive">
+                </div>
+                <div class="col-xs-11">
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="http://placehold.it/140x140" class="img-responsive">
+                </div>
+                <div class="col-xs-11">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <h3>Book Chapters</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="http://placehold.it/140x140" class="img-responsive">
+                </div>
+                <div class="col-xs-11">
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="http://placehold.it/140x140" class="img-responsive">
+                </div>
+                <div class="col-xs-11">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <h3>Conference Abstracts and Presentations <small>[for older presentations see cv]</small></h3>
+          <ul class="list-group">
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"</li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+          </ul>
+        </div>
+
+        <!-- CV as something -- not clear how yet -->
+        <div class="tab-pane" id="curriculum">
+          <!--<h2>Curriculum</h2>-->
+          <h3>Work Experience</h3>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h4><kbd>2014-....</kbd> Post-doctoral Associate <small>@ That one University (USA)</small></h4>
+              <p>Advisor: Prof. <a href="">E. Brown</a>, Ph.D.
+            </div>
+          </div>
+          <h3>Education</h3>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h4><kbd>2013</kbd> Ph.D. Timetravel <small>@ Gallifrey University (Gallifrey)</small></h4>
+              <p>Advisors: Prof. <a href="">Doctor</a>, Ph.D.</p>
+            </div>
+          </div>
+          
+          <h3>Awards</h3>
+          <div class="panel panel-default">
+          </div>
+        </div>
+      </div> <!-- end of my-tab-content -->
+      <div id="footer">
+      <div class="container">
+        <p class="text-muted">Build with <a href="http://getbootstrap.com">Bootstrap</a> and <a href="https://bootswatch.com/simplex/">Simplex theme</a>. Customized by <a href="research.vickyfroyen.com">Vicky Froyen</a>. Like it? <a href="">Fork it!</a></p>
+      </div>
+</div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      function toggleChevron(e) {
+      $(e.target)
+          .prev('.panel-heading')
+          .find("i.indicator")
+          .toggleClass('glyphicon-chevron-right glyphicon-chevron-down');
+      }
+      $('#accordion').on('hidden.bs.collapse', toggleChevron);
+      $('#accordion').on('shown.bs.collapse', toggleChevron);
+    </script>
+  </body>
+</html>
